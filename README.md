@@ -1,7 +1,10 @@
 ## Introduction
 
-This is a simple pipeline example for a .NET Core application, showing just
-how easy it is to get up and running with .NET development using GitLab.
+The Command Design Pattern is a behavioral design pattern that encapsulates a request as an object, thereby allowing you to parameterize clients with queuable requests, support undoable operations, or log the requests. This pattern can be implemented in .NET 7 Core as well as in previous versions of .NET. Here, I'll provide an example of implementing the Command Pattern in .NET 7 Core using C#.
+
+In this example, we have implemented the Command Pattern to encapsulate buying and selling fruit operations. The `FruitStock` class represents the receiver of these commands, and `BuyFruitCommand` and `SellFruitCommand` are concrete command classes that encapsulate these operations. The `FruitShop` acts as the invoker of these commands.
+
+When you run the program, it demonstrates how you can use commands to buy and sell fruits while maintaining a stock of fruits. The Command Pattern allows you to decouple the sender and receiver of requests and makes it easy to add new commands in the future without modifying the existing code.
 
 # Reference links
 
