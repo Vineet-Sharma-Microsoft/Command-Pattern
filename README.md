@@ -200,7 +200,7 @@ class Program
 ## 🚀 Getting Started
 
 ### **Prerequisites**
-- .NET SDK (7.0 or higher)
+- .NET SDK (10.0 or higher)
 - Git
 
 ### **Installation & Execution**
